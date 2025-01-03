@@ -1,0 +1,45 @@
+.ql-toolbar.ql-snow {
+  @apply bg-slate-800 p-3 rounded-t-2xl !border-t-0 !border-l-0 !border-r-0 !border-b !border-slate-600;
+}
+
+.ql-picker-label,
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  @apply !border-none;
+}
+
+.ql-snow .ql-picker,
+.ql-snow.ql-toolbar .ql-picker-label:hover {
+  @apply !text-slate-200;
+}
+
+.ql-toolbar .ql-picker-item:hover,
+.ql-snow.ql-toolbar button:hover,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.ql-snow.ql-toolbar button.ql-active {
+  @apply !text-yellow-400;
+}
+
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  @apply bg-slate-700 rounded-md;
+}
+
+.ql-snow .ql-stroke,
+.ql-snow .ql-fill {
+  stroke: currentColor !important;
+}
+
+.ql-snow .ql-tooltip {
+  @apply !bg-slate-800 !shadow-none rounded-md !border-none p-4 !text-slate-200;
+}
+
+.ql-snow a {
+  @apply !text-yellow-500 !no-underline;
+}
+
+.ql-container.ql-snow {
+  @apply !border-none bg-slate-800 rounded-b-2xl;
+}
+
+.ql-editor {
+  min-height: 200px;
+}
